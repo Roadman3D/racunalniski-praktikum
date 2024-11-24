@@ -1,0 +1,5 @@
+# MyST build outputs
+ucbenik/_build/
+*.DS_Store
+*.md#
+_minted*
