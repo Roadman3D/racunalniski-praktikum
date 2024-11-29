@@ -5,12 +5,23 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 
+\usepackage{tikz}
+\usetikzlibrary{math}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{external}
+
+\usepackage{array}
+
 \theoremstyle{definition}
 \newtheorem{definicija}{Definicija}[section]
 
 \theoremstyle{plain}
 \newtheorem{izrek}{izrek}
 
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
 
 \begin{document}
 
@@ -31,7 +42,7 @@
 
 \section{Paketa \texttt{amsmath} in \texttt{amsfonts}}
 
-% \input{prosojnice/2-paketa-amsmath-amsfonts.tex}
+\input{prosojnice/2-paketa-amsmath-amsfonts.tex}
 
 \section[Matematika, 1. del\\\large{Analiza, logika, množice}]{Matematika, 1. del}
 
@@ -39,8 +50,14 @@
 
 \section{Stolpci in slike}
 
+\input{prosojnice/4-stolpci-slike.tex}
+
 \section{Paket \texttt{beamer} in tabele}
 
+\input{prosojnice/5-beamer-tabele.tex}
+
 \section[Matematika, 2. del\\\large{Zaporedja, algebra, grupe}]{Matematika, 2. del}
+
+\input{prosojnice/6-zaporedja-algebra-grupe.tex}
 
 \end{document}
